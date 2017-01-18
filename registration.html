@@ -1,0 +1,104 @@
+<!doctype html>
+<!-- 
+Assignment Name: Final Project
+File Name: registration.html
+Date: 03/10/2016
+Programmer: Erik Burnham
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pht.css">
+    <title>Portland Historical Tours :: Registration</title>
+</head>
+
+    <body>
+<div id="wrapper">
+<header>
+        
+     <img class="noborder" src="assets_rev1/portland_skyline_flat.png" height="75" width="300" alt="skyline">
+    
+    <h1>Portland Historical Tours.com</h1>
+</header>
+    
+<nav>
+    <ul>
+    <li><a href="index.html">Portland Tours</a><br><img src="assets_rev1/logo.png" height="75" width="75" alt="logo"></li>
+    <li><a href="downtown.html">Downtown Tour</a><img src="assets_rev1/downtown_tour_small.png" height="75" width="75" alt="downtown"></li>
+    <li><a href="landmark.html">Landmark Tour</a> <img src="assets_rev1/landmarks_tour_small.png" height="75" width="75" alt="landmark"></li>
+    <li><a href="growth.html">Growth Tour</a><br><img src="assets_rev1/growth_tour_small.png" height="75" width="75" alt="growth"></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <br>
+</nav>
+
+
+ 
+
+
+<main>
+ 
+    <div id="rightimg">
+    <a href="index.html"> <img src="assets_rev1/logo.png" width="200" height="200"  alt="Portland Historical Tours" ></a>
+    </div>
+    
+    <h2>Sign Up For a Tour!</h2>
+    <h3>Required info is marked with an asterisk*</h3>
+    <br>
+    <form name="reservation" method="post" >
+        
+    <select size="1" name="tourSelect" id="tourSelect">
+        <option>*Choose Your Tour</option>
+            <option value="Downtown Tour">Downtown Tour</option>
+            <option value="Landmark Tour">Landmark Tour</option>
+            <option value="Growth Tour">Growth Tour</option>
+        </select>
+        <br>
+        <br>
+    <label for="myFName">*First Name</label><input type="text" name="myFName" id="myFName" required="required">
+        <br>
+        <br>
+    <label for="myLName">*Last Name</label><input type="text" name="myLName" id="myLName" required="required">
+        <br>
+        <br>
+    <label for="email">*E-mail</label><input type="email" name="email" id="email" required="required">
+        <br>
+        <br>
+    <label for="myPhone">Phone</label><input type="tel" name="myPhone" id="myPhone">
+        <br>
+        <br>
+    <label for="myDate">*Tour Date</label><input type="date" name="myDate" id="myDate" required="required">
+        <br>
+        <br>
+    <label for="myChoice">*Number of participants </label><input type="number" name="myChoice" id="myChoice" min="1" max="14" required="required">
+        <br>
+        <br>
+    <label for="myAllergies">Does anyone in your party have any food or drink sensitivities? If so, what are they?<br></label><textarea class="nocenter" name="myAllergies" id="myAllergies"  cols="50" rows="6" >Enter your comments here</textarea>
+        <br>
+        <br>
+    <input type="submit" id="mySubmit">
+    
+    </form>
+
+<div id="address">
+    <p>Portland Historical Tours</p>
+    <p>1200 NW Naito Parkway</p>
+    <p>Portland, OR 97209</p>
+    <p>(503)555-1234</p>
+</div>    
+        
+</main> 
+  
+    
+<footer>Copyright &copy; 2016 Portland Historical Tours<br></footer>
+    
+    </div>
+    
+    
+    
+        
+    
+
+        
+</body>    
+</html>
